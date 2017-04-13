@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Try your luck !"
+            android:id="@+id/textView"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:layout_margin="30dp"/>
+
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="5dp"
+
+
+        >
+
+
+<!--////////////////////////////////////////////////////////////////////////////-->
+<!--/ First Row : -->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ First View : -->
+
+            <FrameLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView1"
+                android:layout_column="0"
+                android:src="@drawable/ic_launcher2" />
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/angel"
+                    android:layout_column="0"
+                    android:src="@drawable/angel"
+                    android:visibility="gone"
+                    />
+            </FrameLayout>
+
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Second View : -->
+
+
+            <FrameLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView2"
+                android:layout_column="1"
+                android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cool2"
+                    android:layout_column="1"
+                    android:src="@drawable/cool"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Third View : -->
+
+            <FrameLayout>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView3"
+                android:layout_column="2"
+                android:src="@drawable/ic_launcher2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/lol"
+                android:layout_column="1"
+                android:src="@drawable/lol"
+                android:visibility="gone"
+                />
+
+
+        </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Fourth View : -->
+
+            <FrameLayout>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView4"
+                android:layout_column="3"
+                android:src="@drawable/ic_launcher2"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/happy"
+                android:layout_column="1"
+                android:src="@drawable/happy"
+                android:visibility="gone"
+                />
+
+
+        </FrameLayout>
+
+
+        </TableRow>
+
+
+<!--////////////////////////////////////////////////////////////////////////////-->
+        <!--Second Row : -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Fifth View : -->
+
+
+            <FrameLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView5"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_launcher2" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/devil"
+                    android:layout_column="0"
+                    android:src="@drawable/devil"
+                    android:visibility="gone"
+                    />
+            </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Sixth View : -->
+
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView6"
+                    android:layout_column="1"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question2"
+                    android:layout_column="1"
+                    android:src="@drawable/question"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Seventh View : -->
+
+
+            <FrameLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView7"
+                    android:layout_column="2"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ner"
+                    android:layout_column="1"
+                    android:src="@drawable/ner"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Eighth View : -->
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView8"
+                    android:layout_column="3"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/inlove"
+                    android:layout_column="1"
+                    android:src="@drawable/inlove"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+
+        </TableRow>
+
+<!--////////////////////////////////////////////////////////////////////////////-->
+       <!--Third Row : -->
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Ninth View : -->
+
+
+            <FrameLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView9"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_launcher2" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ner2"
+                    android:layout_column="0"
+                    android:src="@drawable/ner"
+                    android:visibility="gone"
+                    />
+            </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Tenth View : -->
+
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView10"
+                    android:layout_column="1"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/cool"
+                    android:layout_column="1"
+                    android:src="@drawable/cool"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Eleventh View : -->
+
+
+            <FrameLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView11"
+                    android:layout_column="2"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/inlove2"
+                    android:layout_column="1"
+                    android:src="@drawable/inlove"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Twelfth View : -->
+
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView12"
+                    android:layout_column="3"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/devil2"
+                    android:layout_column="1"
+                    android:src="@drawable/devil"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+
+        </TableRow>
+
+        <!--////////////////////////////////////////////////////////////////////////////-->
+        <!--Fourth Row : -->
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Thirteenth View : -->
+
+
+            <FrameLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView13"
+                    android:layout_column="0"
+                    android:src="@drawable/ic_launcher2" />
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/question"
+                    android:layout_column="0"
+                    android:src="@drawable/question"
+                    android:visibility="gone"
+                    />
+            </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Fourteenth View : -->
+
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView14"
+                    android:layout_column="1"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/happy2"
+                    android:layout_column="1"
+                    android:src="@drawable/happy"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Fifteenth View : -->
+
+
+            <FrameLayout>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView15"
+                    android:layout_column="2"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/angel2"
+                    android:layout_column="1"
+                    android:src="@drawable/angel"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+            <!--////////////////////////////////////////////////////////////////////////////-->
+            <!--/ Sixteenth View : -->
+
+            <FrameLayout>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView16"
+                    android:layout_column="3"
+                    android:src="@drawable/ic_launcher2"/>
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/lol2"
+                    android:layout_column="1"
+                    android:src="@drawable/lol"
+                    android:visibility="gone"
+                    />
+
+
+            </FrameLayout>
+
+
+        </TableRow>
+
+        <!--////////////////////////////////////////////////////////////////////////////-->
+
+
+    </TableLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="#Tries :"-->
+            <!--android:textSize="20sp"-->
+            <!--android:textStyle="bold"/>-->
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/tries"-->
+                <!--android:textSize="20sp"-->
+                <!--android:textStyle="bold"/>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp">
+
+
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="#Succussful Tries :"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/successtries"
+                android:textStyle="bold"
+                android:hint="Success"/>
+
+            </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Reset"
+                android:layout_marginStart="220dp"
+                android:id="@+id/rst"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
